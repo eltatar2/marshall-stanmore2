@@ -1,12 +1,13 @@
 name: Marshall Stanmore II
 description: Bridge BLE-MQTT pour controler la Marshall Stanmore II
-version: "1.0.1"
+version: "1.0.2"
 slug: marshall_stanmore2
 init: false
 arch:
   - aarch64
   - amd64
 host_network: true
+dbus: true
 options:
   ble_address: "54:B7:E5:A3:79:B3"
   mqtt_hostname: "core-mosquitto"
