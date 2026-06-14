@@ -1,7 +1,7 @@
 ARG BUILD_FROM=ghcr.io/hassio-addons/base:16.3.2
 FROM $BUILD_FROM
 
-RUN apk add --no-cache python3 py3-pip jq bluez dbus
+RUN apk add --no-cache python3 py3-pip jq bluez dbus git
 
 RUN pip3 install --no-cache-dir --break-system-packages \
     "bleak>=0.22.3" \
