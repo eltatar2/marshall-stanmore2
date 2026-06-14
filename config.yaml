@@ -1,6 +1,6 @@
 name: Marshall Stanmore II
 description: Bridge BLE-MQTT pour controler la Marshall Stanmore II
-version: "1.0.0"
+version: "1.0.1"
 slug: marshall_stanmore2
 init: false
 arch:
